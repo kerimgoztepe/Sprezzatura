@@ -1,0 +1,19 @@
+/*
+		1. go to: "https://www.cheapoair.com/flights/book-now-pay-later-flights"
+        2. close the cookies info bar by clicking I Accept button
+        3. click the one way radio button
+        4. verify -> Assert that round trip is not selected
+        5. clear the default content from "FROM" inputbox
+        6. send "fra" to FROM input box
+        7. print all suggested airports from the list
+        8. select the kennedy airport from the list
+        9.send "ber" to input box and hit TAB key to select the first option
+        10.select depart date (PS: to select may 10, click on the opened calendar. data-date attribute for May 10 is 1589061600)
+        11.select 2 adult
+        12.select 1 child
+        13.check whether child age drop down is visible - Assert ?
+        14.select child age as 3
+        15.select FIRST CLASS from the class drop down by using drop down index
+        16.click on "Search Now"
+        17.print the first carrier and price on the list
+		*/

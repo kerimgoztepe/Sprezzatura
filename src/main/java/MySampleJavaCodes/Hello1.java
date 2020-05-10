@@ -2,9 +2,11 @@ package MySampleJavaCodes;
 
 public class Hello1 {
     public static void main(String[] args) {
-        String name = "John Berger";
-        System.out.println(name);
-        System.out.println(name);
+        String laVita="java..che bella lingua ...";
+        String cheCosa="non è vero?";
+        System.out.println(laVita);
+        System.out.println(cheCosa);
+
 
     }
 }

@@ -1,0 +1,21 @@
+project 3 - airBNB test scenario
+//0- navigate to https://www.airbnb.com/
+//1- get the windowHandle for future use
+//2- type "new z" into the search box
+//3- select "New Zealand" from the list
+//4- select the date interval "May 1 to May 5
+//5- click add guests
+//6- add two adults
+//7- submit
+//8- click the first hotel
+//9- switch to new tab
+//10- now get the second window handle - for future use
+//11- get the page title and verify it contains "Zealand"
+//12- get the name of the 1st hotel
+//13- go back to first window
+//14- click to THIRD link (i've ignored second link because it sometimes has advertisement, makes complicated)
+//15- go to third tab
+//16- now get the third window handle - for future use
+//17- get the page title and verify it contains "Zealand"
+//18- get the name of the 2nd hotel
+//19- print the names of the 1st and 2nd hotel.

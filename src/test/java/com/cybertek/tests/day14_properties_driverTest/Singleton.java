@@ -1,4 +1,4 @@
-package com.cybertek.tests.day14_properties_driverTest;
+/*package com.cybertek.tests.day14_properties_driverTest;
 
 public class Singleton {
     private Singleton() {
@@ -9,3 +9,5 @@ public class Singleton {
     }
 
 }
+
+ */

@@ -1,4 +1,4 @@
-package com.cybertek.tests.day14_properties_driverTest;
+/*package com.cybertek.tests.day14_properties_driverTest;
 
 import org.testng.annotations.Test;
 
@@ -14,3 +14,5 @@ public class SingletonTest {
 
     }
 }
+
+ */

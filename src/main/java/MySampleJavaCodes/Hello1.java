@@ -6,6 +6,8 @@ public class Hello1 {
         String cheCosa="non è vero?";
         System.out.println(laVita);
         System.out.println(cheCosa);
+        System.out.println(cheCosa);
+        
 
 
     }

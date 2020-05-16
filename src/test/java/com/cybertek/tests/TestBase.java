@@ -11,9 +11,8 @@ import java.util.concurrent.TimeUnit;
 
 public class TestBase {
 
-        protected Actions actions;
-        protected WebDriverWait wait;
-
+        public Actions actions;
+        public WebDriverWait wait;
         public WebDriver driver;
 
 

@@ -37,16 +37,23 @@ public class DynamicDrop {
  */
 
     @Test
+    //this test is working
     public void dropdown() throws InterruptedException {
+
         WebDriver driver = WebDriverFactory.getDriver("chrome");
         driver.get("https://www.cheapoair.com/flights/book-now-pay-later-flights");
+
         WebElement from = driver.findElement(By.id("ember532"));
         from.clear();
         from.sendKeys("fk");
+
         List<WebElement> elements = driver.findElements(By.cssSelector(".suggestion-box__content"));
 
-
         System.out.println(elements.size());
+        //print each option
+        for (WebElement option : elements) {
+            System.out.println(option.getText());
+        }
     }
 
     @Test

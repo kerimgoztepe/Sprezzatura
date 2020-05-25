@@ -1,4 +1,4 @@
-package assignment_EU2.assignment14_krm;
+package JavaCybertekEU.assignment_EU2.assignment14_krm;
 
 public class LameCalculator {
     public double plus(double x, double y) {

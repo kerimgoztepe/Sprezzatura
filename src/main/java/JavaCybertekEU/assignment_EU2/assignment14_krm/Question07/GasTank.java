@@ -1,4 +1,4 @@
-package tasks.assignment_14.Question07;
+package JavaCybertekEU.assignment_EU2.assignment14_krm.Question07;
 
 public class GasTank {
 	

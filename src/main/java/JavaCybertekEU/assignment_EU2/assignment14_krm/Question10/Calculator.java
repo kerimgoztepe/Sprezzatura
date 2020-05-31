@@ -1,4 +1,4 @@
-package tasks.assignment_14.Question10;
+package JavaCybertekEU.assignment_EU2.assignment14_krm.Question10;
 
 public class Calculator {
 	

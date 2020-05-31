@@ -1,4 +1,4 @@
-package tasks.assignment_14.Question05;
+package JavaCybertekEU.assignment_EU2.assignment14_krm.Question05;
 
 public class TVTest {
 

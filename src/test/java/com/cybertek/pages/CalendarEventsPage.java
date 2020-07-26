@@ -17,5 +17,8 @@ public class CalendarEventsPage extends BasePage {
     @FindBy(css = "div[href='#']")
     public WebElement options;
 
+    @FindBy(css = "#grid-calendar-event-grid-1541138987 > div.oro-datagrid > div:nth-child(1) > div > div.pagination.pagination-centered > ul > li:nth-child(2) > input")
+    public WebElement pageNumber;
+
 
 }

@@ -1,3 +1,4 @@
+/*
 package com.cybertek.tests.AssignmentTest3;
 
 import com.cybertek.pages.CalendarEventsPage;
@@ -20,7 +21,7 @@ public class Test3Part1 extends TestBase {
          * 2.Login as a store manager
          * 3.Navigate to “Activities -> Calendar Events”
          * 4.Verify that page subtitle "Options" is displayed
-         */
+
         new LoginPage().loginAsStoreManager();
         extentLogger.info("logged in");
         new DashboardPage().navigateToModule("Activities", "Calendar Events");
@@ -43,7 +44,7 @@ public class Test3Part1 extends TestBase {
 
 
     }
-    /*
+
     @Test
     public void test2() {
         extentLogger = report.createTest("TC2: page number is equal to 1");
@@ -56,20 +57,23 @@ public class Test3Part1 extends TestBase {
 
 
         //1.Go to “https://qa1.vytrack.com/"
-​        new LoginPage().login("storeManager");
+
+​        new LoginPage().loginAsStoreManager();
         //get report
         extentLogger.info("logged in");
+
         //navigate to Activities-calendar events page
         new DashboardPage().navigateToModule("Activities", "Calendar Events");
-
         extentLogger.info("navigated to Events page");
         CalendarEventsPage calendarEventsPage = new CalendarEventsPage();
         calendarEventsPage.waitUntilLoaderScreenDisappear();
-        String actualSelectedPage = calendarEventsPage.selectedPageNumber.getAttribute("value");
-        Assert.assertEquals(actualSelectedPage, "1", "is selected page 1");
+
+        String actualSelectedPage = calendarEventsPage.pageNumber.getAttribute("value");
+        Assert.assertEquals(actualSelectedPage,"1","selectedpage is 1");
+        //Assert.assertEquals(actualSelectedPage, "1", "is selected page 1");
         extentLogger.pass("selected page is 1");
-​
-​
+​​
     }
-    */
+
 }
+*/

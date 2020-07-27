@@ -1,4 +1,4 @@
-package assignment_EU2.assignment2_variables;
+package JavaCybertekEU.assignment_EU2.assignment2_variables;
 
 /*
  * Declare and initialize an integer variable called count, and write a statement 
@@ -9,7 +9,7 @@ public class Question1 {
 	public static void main(String[] args) {
 		
 		int count = 5;
-		System.out.println(count);
+		System.out.println("count = "+count);
 		
 		
 

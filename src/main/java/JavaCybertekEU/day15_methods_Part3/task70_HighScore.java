@@ -1,4 +1,4 @@
-package day15_methods_Part3;
+package JavaCybertekEU.day15_methods_Part3;
 
 public class task70_HighScore {
 

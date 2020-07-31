@@ -1,4 +1,4 @@
-package day15_methods_Part3;
+package JavaCybertekEU.day15_methods_Part3;
 
 public class assignment1_SwapValue {
 
@@ -15,6 +15,7 @@ public class assignment1_SwapValue {
 		
 		System.out.println("n1:"+n1);
 		System.out.println("n2:"+n2);
+		System.out.printf("n3:"+n3);
 		
 		//Solution2 without using 3rd variable
 		

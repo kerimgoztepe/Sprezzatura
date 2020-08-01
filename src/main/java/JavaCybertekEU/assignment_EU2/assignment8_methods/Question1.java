@@ -1,4 +1,4 @@
-package assignment_EU2.assignment8_methods;
+package JavaCybertekEU.assignment_EU2.assignment8_methods;
 
 import java.util.Scanner;
 

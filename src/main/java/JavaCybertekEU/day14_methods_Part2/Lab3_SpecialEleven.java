@@ -1,4 +1,4 @@
-package day14_methods_Part2;
+package JavaCybertekEU.day14_methods_Part2;
 
 /*
 We'll say a number is special if it is a multiple of 11 or if it is one more than a multiple of 11. 
@@ -19,14 +19,8 @@ public class Lab3_SpecialEleven {
 	}
 	
 	public static void specialEleven(int number) {
-		
-		if(number%11==0 || (number-1)%11==0 || number%11==1) {
-			System.out.println(true);
-			
-		}else {
-			System.out.println(false);
-			
-		}
+
+		System.out.println(number % 11 == 0 || (number - 1) % 11 == 0 || number % 11 == 1);
 		
 	}
 

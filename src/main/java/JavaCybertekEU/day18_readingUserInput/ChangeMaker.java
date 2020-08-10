@@ -1,4 +1,4 @@
-package day18_readingUserInput;
+package JavaCybertekEU.day18_readingUserInput;
 
 import java.util.Scanner;
 
@@ -33,11 +33,7 @@ public class ChangeMaker {
 				
 			}while(true);
 			
-			
-			
-			
-			
-			
+
 	}
 	
 	
@@ -61,26 +57,6 @@ public class ChangeMaker {
 		
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 
 }

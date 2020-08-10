@@ -1,4 +1,4 @@
-package day17_classObjects_Part2;
+package JavaCybertekEU.day17_classObjects_Part2;
 
 public class BankAccount {
 	
@@ -40,15 +40,6 @@ public class BankAccount {
 		}
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 
 }

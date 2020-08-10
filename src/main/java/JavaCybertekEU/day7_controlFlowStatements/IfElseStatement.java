@@ -1,4 +1,4 @@
-package day7_controlFlowStatements;
+package JavaCybertekEU.day7_controlFlowStatements;
 
 public class IfElseStatement {
 

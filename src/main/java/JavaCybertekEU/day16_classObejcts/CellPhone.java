@@ -1,4 +1,4 @@
-package day16_classObejcts;
+package JavaCybertekEU.day16_classObejcts;
 
 public class CellPhone {
 	

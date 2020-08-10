@@ -1,4 +1,4 @@
-package day46_collection_part1;
+package JavaCybertekEU.day46_collection_part1;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -24,9 +24,8 @@ public class ArrayVSArrayList {
 		
 		System.out.println(numsArray[0]);
 		System.out.println(list1.get(0));
-		
-		
-		
+		System.out.println(list1);
+
 
 	}
 

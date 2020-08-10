@@ -1,4 +1,4 @@
-package day13_methods_Part1;
+package JavaCybertekEU.day13_methods_Part1;
 
 public class CredirCardMethod {
 

@@ -1,8 +1,9 @@
-package day46_collection_part1;
+package JavaCybertekEU.day46_collection_part1;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
 
 public class SortingAList {
 
@@ -24,11 +25,11 @@ public class SortingAList {
 		System.out.println(list.toString());
 		
 		
-		List<Product> prodList = new ArrayList<>();
-		prodList.add(new Product("spoon", 13.99));
-		prodList.add(new Product("bag", 100.00));
-		prodList.add(new Product("shoes", 59.99));
-		prodList.add(new Product("computer", 2100.99));
+		List<day46_collection_part1.Product> prodList = new ArrayList<>();
+		prodList.add(new day46_collection_part1.Product("spoon", 13.99));
+		prodList.add(new day46_collection_part1.Product("bag", 100.00));
+		prodList.add(new day46_collection_part1.Product("shoes", 59.99));
+		prodList.add(new day46_collection_part1.Product("computer", 2100.99));
 		
 		
 		System.out.println("Before sorting");
@@ -39,8 +40,8 @@ public class SortingAList {
 		System.out.println("After sorting");
 		System.out.println(prodList.toString());
 		
-		Product p1 = new Product("spoon", 25.34);
-		Product p2 = new Product("chair",7.99);
+		day46_collection_part1.Product p1 = new day46_collection_part1.Product("spoon", 25.34);
+		day46_collection_part1.Product p2 = new day46_collection_part1.Product("chair",7.99);
 		//System.out.println(p1.compareTo(p2));
 		
 

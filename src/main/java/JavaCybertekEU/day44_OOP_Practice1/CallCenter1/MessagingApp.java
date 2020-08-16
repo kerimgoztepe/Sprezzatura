@@ -1,4 +1,4 @@
-package day44_OOP_Practice1.CallCenter1;
+package JavaCybertekEU.day44_OOP_Practice1.CallCenter1;
 
 public abstract class MessagingApp {
 
@@ -14,7 +14,7 @@ public abstract class MessagingApp {
 
     public MessagingApp(String name, int count) {
         this.name=name;
-        this.count=count;
+        MessagingApp.count =count;
     }
     public abstract void sendMessage(String msg);
 

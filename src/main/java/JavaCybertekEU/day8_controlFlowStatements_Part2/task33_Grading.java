@@ -4,7 +4,7 @@ public class task33_Grading {
 
 	public static void main(String[] args) {
 		
-		int mark=90;
+		int mark=91;
 		
 		if(mark<60) {
 			System.out.println("Fail");

@@ -1,4 +1,4 @@
-package day44_OOP_Practice1.CallCenter1;
+package JavaCybertekEU.day44_OOP_Practice1.CallCenter1;
 
 public interface VoiceCollable {
 
@@ -7,11 +7,11 @@ public interface VoiceCollable {
     void call(String contact); // public abstract void call(String abstract is aloso true
 
     //static method
-    public static void decline() {
+    static void decline() {
         System.out.println("mike declined voice call");
     }
     //default method
-    public default void accept(){
+    default void accept(){
         System.out.println("mike finaly accepted voice call");
 
     }

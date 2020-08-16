@@ -1,4 +1,4 @@
-package day44_OOP_Practice1.CallCenter1;
+package JavaCybertekEU.day44_OOP_Practice1.CallCenter1;
 
 public class CallCenter {
     public static void main(String[] args) {
@@ -15,8 +15,8 @@ public class CallCenter {
         VoiceCollable.decline();
         System.out.println(VoiceCollable.CAN_CALL);
 
-        wa.getCount();
-        wa.setCount(4);
+        MessagingApp.getCount();
+        MessagingApp.setCount(4);
 
         System.out.println("+++++++++++++++++++++++++++");
 

@@ -1,4 +1,4 @@
-package day8_controlFlowStatements_Part2;
+package JavaCybertekEU.day8_controlFlowStatements_Part2;
 
 public class task34_AverageGrading {
 

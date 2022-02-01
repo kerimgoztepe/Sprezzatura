@@ -14,17 +14,15 @@ public class OverLoading1 {
         }
 
         // Overloaded sum(). This sum takes two double parameters
-        public double sum(double x, double y)
-        {
+        public double sum(double x, double y)  {
             return (x + y);
         }
 
         // Driver code
-        public static void main(String args[])
-        {
+        public static void main(String args[])    {
             OverLoading1 s = new OverLoading1();
-            System.out.println(s.sum(10, 20));
-            System.out.println(s.sum(10, 20, 30));
+            System.out.println(s.sum(12, 20));
+            System.out.println(s.sum(14, 20, 30));
             System.out.println(s.sum(10.5, 20.5));
         }
     }

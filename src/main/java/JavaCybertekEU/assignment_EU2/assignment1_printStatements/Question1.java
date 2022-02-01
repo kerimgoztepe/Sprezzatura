@@ -1,4 +1,4 @@
-package assignment_EU2.assignment1_printStatements;
+package JavaCybertekEU.assignment_EU2.assignment1_printStatements;
 
 public class Question1 {
 

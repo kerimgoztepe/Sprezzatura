@@ -20,6 +20,14 @@ public class javaListSample {
             strList.clear();
 
             System.out.println("List after calling clear() method:" + strList);
+
+            List<String> newList1 = new ArrayList<String>();
+            newList1.add("test1");
+            newList1.add("test2");
+            System.out.println("newlist is=" + newList1);
+            System.out.println("size of newlist is = " + newList1.size());
+
+
         }
     }
 

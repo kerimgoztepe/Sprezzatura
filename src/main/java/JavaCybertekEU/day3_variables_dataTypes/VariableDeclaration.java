@@ -1,4 +1,4 @@
-package day3_variables_dataTypes;
+package JavaCybertekEU.day3_variables_dataTypes;
 
 public class VariableDeclaration {
 

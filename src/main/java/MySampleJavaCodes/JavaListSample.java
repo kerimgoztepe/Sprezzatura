@@ -1,7 +1,7 @@
 package MySampleJavaCodes;
 import java.util.*;
 
-public class javaListSample {
+public class JavaListSample {
 
         public static void main(String[] args)  {
             List<String> strList = new ArrayList<String>();           // Creating a list

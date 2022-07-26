@@ -11,6 +11,10 @@ public class ObjectTest {
         System.out.println(myObj.x);
         System.out.println(myObj2.y);
         System.out.println(myObj.y);
+
+        myObj.x = 40;
+        System.out.println(myObj.x);
+        System.out.println();
     }
 
 

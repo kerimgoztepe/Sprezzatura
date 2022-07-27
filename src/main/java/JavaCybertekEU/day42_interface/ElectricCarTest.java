@@ -1,4 +1,4 @@
-package JavaCybertekEU.day42_interface;
+/*package JavaCybertekEU.day42_interface;
 
 public class ElectricCarTest {
 
@@ -52,3 +52,6 @@ public class ElectricCarTest {
 	}
 
 }
+
+
+ */

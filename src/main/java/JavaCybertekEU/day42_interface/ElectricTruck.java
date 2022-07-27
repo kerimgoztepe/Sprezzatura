@@ -1,4 +1,4 @@
-package day42_interface;
+/*package day42_interface;
 
 public abstract class ElectricTruck extends ElectricCar {
 	
@@ -10,3 +10,6 @@ public abstract class ElectricTruck extends ElectricCar {
 	public abstract void load (String item);
 
 }
+
+
+ */

@@ -1,4 +1,4 @@
-package day34_constructors_passingObjectToMethod;
+package JavaCybertekEU.day34_constructors_passingObjectToMethod;
 
 
 /*
@@ -17,11 +17,11 @@ package day34_constructors_passingObjectToMethod;
 public class Calculator {
 	
 
-	Floor floor;
-	Carpet carpet;
+	day34_constructors_passingObjectToMethod.Floor floor;
+	day34_constructors_passingObjectToMethod.Carpet carpet;
 	
 	
-	public Calculator(Floor floor, Carpet carpet) { // Floor floor = new floor()
+	public Calculator(day34_constructors_passingObjectToMethod.Floor floor, day34_constructors_passingObjectToMethod.Carpet carpet) { // Floor floor = new floor()
 		this.floor = floor;
 		this.carpet = carpet;
 	}

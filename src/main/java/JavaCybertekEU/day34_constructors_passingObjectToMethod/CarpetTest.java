@@ -1,4 +1,6 @@
-package day34_constructors_passingObjectToMethod;
+package JavaCybertekEU.day34_constructors_passingObjectToMethod;
+
+import JavaCybertekEU.day34_constructors_passingObjectToMethod.Calculator;
 
 public class CarpetTest {
 
@@ -11,7 +13,7 @@ public class CarpetTest {
 		Calculator cal = new Calculator(f1, c1); //new invokes constructor, which constrcutor?
 		*/
 		
-		Calculator cal = new Calculator(new Floor(10,12), new Carpet(8));
+		Calculator cal = new Calculator(new day34_constructors_passingObjectToMethod.Floor(10,12), new day34_constructors_passingObjectToMethod.Carpet(8));
 		
 		double cost = cal.getTotalCost();
 		System.out.println(cost);

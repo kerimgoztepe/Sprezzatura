@@ -23,7 +23,7 @@ class Cat implements Animal {
     }
 }
 
-class Main {
+class InterfaceMain {
     public static void main(String[] args) {
         Cat myCat = new Cat();  // Create a Cat object
         myCat.animalSound();

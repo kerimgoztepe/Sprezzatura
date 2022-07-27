@@ -1,4 +1,4 @@
-package day34_constructors_passingObjectToMethod;
+package JavaCybertekEU.day34_constructors_passingObjectToMethod;
 
 public class DiceTest {
 
@@ -7,8 +7,8 @@ public class DiceTest {
 		final int SIX_SIDES = 6;
 		final int TWENTY_SIDES = 20;
 		
-		Dice sixDice = new Dice(SIX_SIDES);
-		Dice twentyDice = new Dice(TWENTY_SIDES);
+		day34_constructors_passingObjectToMethod.Dice sixDice = new day34_constructors_passingObjectToMethod.Dice(SIX_SIDES);
+		day34_constructors_passingObjectToMethod.Dice twentyDice = new day34_constructors_passingObjectToMethod.Dice(TWENTY_SIDES);
 		
 		rollDice(sixDice);
 		rollDice(twentyDice);
@@ -18,7 +18,7 @@ public class DiceTest {
 	}
 	
 	
-	public static void rollDice(Dice d) {
+	public static void rollDice(day34_constructors_passingObjectToMethod.Dice d) {
 		
 		
 		System.out.println("Rolling a " + d.getSides() + " sided dice");  //rolling a 6 sided dice

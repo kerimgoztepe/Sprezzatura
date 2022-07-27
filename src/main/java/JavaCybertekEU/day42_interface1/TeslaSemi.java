@@ -1,6 +1,6 @@
-package day42_interface1;
+/*package JavaCybertekEU.day42_interface1;
 
-    public class TeslaSemi extends ElectricTruck {
+    public class TeslaSemi extends day42_interface.ElectricTruck {
 
         private double engineSize;
 
@@ -43,3 +43,6 @@ package day42_interface1;
 
     }
 
+
+
+ */

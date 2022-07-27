@@ -1,4 +1,4 @@
-package day42_interface;
+package JavaCybertekEU.day42_interface;
 
 public class ElectricCarTest {
 
@@ -30,7 +30,7 @@ public class ElectricCarTest {
 		semi.start();
 		semi.load("Oranges");
 		semi.drive();
-		semi.stop();
+		//semi.stop();
 		
 		System.out.println("===============================");
 
@@ -40,7 +40,7 @@ public class ElectricCarTest {
 		tr.start();
 		tr.load("Java Books");
 		tr.drive();
-		tr.stop();
+		//tr.stop();
 		
 		System.out.println("===============================");
 		

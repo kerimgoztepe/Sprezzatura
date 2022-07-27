@@ -1,4 +1,4 @@
-package day42_interface;
+package JavaCybertekEU.day42_interface;
 
 public class Tesla extends ElectricCar {
 

@@ -1,6 +1,7 @@
-package day42_interface1;
+/*
+package JavaCybertekEU.day42_interface1;
 
-public class TeslaTruck extends TeslaSemi{
+public class TeslaTruck extends day42_interface.TeslaSemi {
 
 
 
@@ -10,3 +11,6 @@ public class TeslaTruck extends TeslaSemi{
             }
 
         }
+
+
+ */

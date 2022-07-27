@@ -1,4 +1,4 @@
-package day42_interface;
+package JavaCybertekEU.day42_interface;
 
 public abstract class ElectricCar {
 	
@@ -27,17 +27,14 @@ public abstract class ElectricCar {
 		return model;
 	}
 
-
 	public double getPrice() {
 		return price;
 	}
-
 
 	public String getColor() {
 		return color;
 	}
 
-	
 
 	@Override
 	public String toString() {

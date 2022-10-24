@@ -1,4 +1,4 @@
-package day2_printing_comments;
+package JavaCybertekEU.day2_printing_comments;
 
 public class task2_gasReceipt {
 

@@ -8,23 +8,7 @@ public class ConstantVariables {
 		final String BIRTHDAY="12\12\1992";
 		final int CAPACITY=50;
 		
-		
-		
-		
-		
-		
-		
-		
 
-		
-		
-		
-		
-		
-	
-		
-		
-		
 		
 		
 	}

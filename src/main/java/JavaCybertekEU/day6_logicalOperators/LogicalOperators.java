@@ -1,4 +1,4 @@
-package day6_logicalOperators;
+package JavaCybertekEU.day6_logicalOperators;
 
 public class LogicalOperators {
 

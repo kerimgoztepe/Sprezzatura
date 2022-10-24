@@ -1,4 +1,4 @@
-package day35_encapsulation;
+package JavaCybertekEU.day35_encapsulation;
 
 public class Person {
 	

@@ -1,4 +1,4 @@
-package day34_constructors_passingObjectToMethod;
+package JavaCybertekEU.day34_constructors_passingObjectToMethod;
 
 /*
  * Write a class with the name Carpet. 

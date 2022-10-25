@@ -7,9 +7,7 @@ public class AppleTest {
 		Apple a1 = new Apple();
 		
 		changeApple(a1);
-		
 
-		
 		methodObject().color = "Brown";
 		
 		methodObject().mA();

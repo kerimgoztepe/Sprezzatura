@@ -61,8 +61,8 @@ public class Test5 {
         @Test
         public void epic1(){
             page.navigate("https://app.epicflow.io/login");
-            page.fill("#username","kerimgoztepe@gmail.com");
-            page.fill("#password","K@rim5568a2");
+            page.fill("#username","ke@gmail.com");
+            page.fill("#password","ccccc");
             page.click("//button[normalize-space()='LOG IN']");
             assertEquals("Epicflow.io", page.title());
 

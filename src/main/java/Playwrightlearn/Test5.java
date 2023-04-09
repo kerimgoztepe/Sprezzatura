@@ -21,7 +21,7 @@ public class Test5 {
             page = browser.newPage();
         }
 
-        @AfterEach
+       // @AfterEach
         public void tearDown() throws Exception {
             page.close();
             browser.close();
@@ -45,6 +45,28 @@ public class Test5 {
 
             // Assert that the new page's URL is correct
             assertEquals("https://www.iana.org/domains/reserved", page.url());
+        }
+
+        @Test
+        public void newTest() {
+            page.navigate("https://www.amazon.com/");
+
+            // Search for an item
+            page.fill("#twotabsearchtextbox", "gift for my son");
+            page.click("[type='submit']");
+            //ElementHandle search = page.querySelector("//input[@id='twotabsearchtextbox']");
+           // search.fill("test");
+        }
+
+        @Test
+        public void epic1(){
+            page.navigate("https://app.epicflow.io/login");
+            page.fill("#username","kerimgoztepe@gmail.com");
+            page.fill("#password","K@rim5568a2");
+            page.click("//button[normalize-space()='LOG IN']");
+            assertEquals("Epicflow.io", page.title());
+
+
         }
     }
 

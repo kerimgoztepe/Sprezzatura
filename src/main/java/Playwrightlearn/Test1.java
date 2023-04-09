@@ -7,6 +7,7 @@ public class Test1 {
 
 
         public static void main(String[] args) {
+
             try (Playwright playwright = Playwright.create()) {
                 Browser browser = playwright.chromium().launch();
                 Page page = browser.newPage();

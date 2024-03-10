@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class CoinMarketCapClient {
 
-    private static final String API_KEY = "cd361ad3-fd49-41d6-892e-df0d594545c8"; // Replace with your actual API key
+    private static final String API_KEY = "cd368"; // Replace with your actual API key
     private static final String BASE_URL = "https://pro-api.coinmarketcap.com/v1";
     private final OkHttpClient client;
     private final Gson gson;
